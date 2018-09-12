@@ -12,7 +12,7 @@ import Typography from '@material-ui/core/Typography';
 const styles = {
   card: {
     maxWidth: 345,
-    marginLeft: '100px'
+    alignItem: 'center'
   },
   media: {
     height: 140,
@@ -26,8 +26,8 @@ function EndGameCard(props) {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
+          image={props.img}
+          title={props.title}
         />
         <CardContent>
           <Typography gutterBottom variant="headline" component="h2">
@@ -39,12 +39,16 @@ function EndGameCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Demo
-        </Button>
-        <Button size="small" color="primary">
-          Code
-        </Button>
+        <a href={props.demo} target="-blank" rel="noopener noreferrer" >
+          <Button size="small" color="primary">
+           Demo
+         </Button>
+        </a>
+        <a href={props.gitHub} target="-blank" rel="noopener noreferrer" >
+          <Button size="small" color="primary">
+           Code
+         </Button>
+        </a>
       </CardActions>
     </Card>
   );

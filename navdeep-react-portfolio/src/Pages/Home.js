@@ -9,7 +9,7 @@ const styles = {
     root: {
         margin: 'auto',
       width: '100%',
-      maxWidth: 500,
+      marginBottom: "100px",
     },
     subheading: {
         margin: 'auto',
@@ -20,9 +20,9 @@ const styles = {
 const Home = (props) => {
     const { classes } = props;
   return (
-    <div > 
+    <div className={classes.root} > 
       <ImageAvatar />
-      <Typography className={classes.root} variant="display2" gutterBottom>
+      <Typography variant="display2" gutterBottom>
        Who I am
       </Typography>
       <hr />
