@@ -6,6 +6,7 @@ import EmailIcon from '../icons/Email';
 import LinkedInIcon from '../icons/LinkedIn';
 import GitHubIcon from '../icons/GitHub';
 import ResumeIcon from '../icons/Resume';
+import SpeedDials from './SpeedDial.js';
 
 const styles = {
   root: {
@@ -39,6 +40,7 @@ class LabelBottomNavigation extends React.Component {
         <a href="https://github.com/snavdeepsingh" rel="noopener noreferrer" target="_blank" ><GitHubIcon /></a>
         <a href="mailto:snavdeepsingh@gmail.com" rel="noopener noreferrer" target="_blank" ><EmailIcon /></a>
         <a href="https://docs.google.com/document/d/1ykYhoN8hey4I6AZBpKoa39gecO1NVpIza9eTXPF6vCs/edit?usp=sharing" rel="noopener noreferrer" target="_blank" ><ResumeIcon /></a>
+        <SpeedDials />
       </BottomNavigation>
     );
   }

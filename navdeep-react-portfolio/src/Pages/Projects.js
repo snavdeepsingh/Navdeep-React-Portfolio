@@ -32,7 +32,7 @@ let ProjectItems = [
     id: 2,
     img: "../assets/images/squawker.png",
     title: "Squawker",
-    description: "Take a picture of any bird to find out what bird it is. The location where the picture was taken is then stored in a database to be used in various aspects of Ornithology such as habitat and migration patterns",
+    description: "Take a picture of any bird to find out what bird it is.",
     demo: "https://pacific-tundra-22064.herokuapp.com/",
     gitHub: "https://github.com/mattrmc1/squawker"
   },
@@ -82,8 +82,8 @@ const Projects = (props) => {
             <EndGameCard 
             id={item.id}
             img={item.img}
-            alt={item.title}
             title={item.title}
+            alt={item.title}
             description={item.description}
             demo={item.demo}
             gitHub={item.gitHub} />

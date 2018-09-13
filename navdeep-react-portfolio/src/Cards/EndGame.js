@@ -31,10 +31,10 @@ function EndGameCard(props) {
         />
         <CardContent>
           <Typography gutterBottom variant="headline" component="h2">
-            EndGame
+            {props.title}
           </Typography>
           <Typography component="p">
-          EndGame is a directional App with the Aim at helping users find the best location that is equidistant for a group to meet.
+          {props.description}
           </Typography>
         </CardContent>
       </CardActionArea>
