@@ -3,13 +3,17 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
+
 
 import SimpleMenu from './SimpleMenu.js';
 
 const styles = {
   root: {
     flexGrow: 1,
+    position: 'fixed',
+    top: '0px',
+    width: "100%",
+    zIndex: 4,
   },
   menuButton: {
     marginLeft: -12,
@@ -25,9 +29,7 @@ function Navbar (props) {
       <AppBar position="static" color="default">
         <Toolbar>
             <SimpleMenu /> <hr />
-          <Typography variant="title" color="inherit">
-            Navdeep Singh
-          </Typography>
+          <h1 style={{color:"#777777"}}>Navdeep Singh</h1>
         </Toolbar>
       </AppBar>
     </div>

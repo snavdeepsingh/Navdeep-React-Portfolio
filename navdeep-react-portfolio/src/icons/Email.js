@@ -11,7 +11,7 @@ const styles = theme => ({
     alignItems: 'flex-end',
   },
   iconHover: {
-      color: 'white',
+      color: 'red',
     margin: theme.spacing.unit * 2,
     '&:hover': {
       color: blue[800],
@@ -31,7 +31,7 @@ function EmailIcons(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <EmailIcon className={classes.iconHover} color="error" style={{ fontSize: 30 }} />
+      <EmailIcon className={classes.iconHover} color="error" style={{ fontSize: props.fontSize }} />
     </div>
   );
 }

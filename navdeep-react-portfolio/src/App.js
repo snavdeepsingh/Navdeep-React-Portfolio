@@ -12,7 +12,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App" style={{backgroundColor: "#fbf8e7"}} >
         <Router>
           <div>
             <Navbar />

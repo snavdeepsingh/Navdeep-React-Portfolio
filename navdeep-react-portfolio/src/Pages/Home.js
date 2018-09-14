@@ -9,7 +9,9 @@ const styles = {
     root: {
         margin: 'auto',
       width: '100%',
+      marginTop: "100px",
       marginBottom: "100px",
+      backgroudColor: "#4f5352",
     },
     subheading: {
         margin: 'auto',
@@ -20,12 +22,12 @@ const styles = {
 const Home = (props) => {
     const { classes } = props;
   return (
-    <div className={classes.root} > 
+    <div className={classes.root}  > 
       <ImageAvatar />
       <Typography variant="display2" gutterBottom>
        Who I am
       </Typography>
-      <hr />
+      <hr  width="60%"/>
       <Typography className={classes.subheading} variant="subheading" gutterBottom>
         Hi, my name is Navdeep Singh and I love to write code that is efficient. I love innovating without reinventing the wheel! Coding is my passion and I enjoy both front end and back end. 
       </Typography>

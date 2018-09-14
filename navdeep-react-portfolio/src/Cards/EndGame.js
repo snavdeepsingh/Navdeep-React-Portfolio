@@ -15,7 +15,7 @@ const styles = {
     alignItem: 'center'
   },
   media: {
-    height: 140,
+    height: 200,
   },
 };
 
@@ -28,6 +28,7 @@ function EndGameCard(props) {
           className={classes.media}
           image={props.img}
           title={props.title}
+          style={{paddingTop: "60px", height: "200px", }}
         />
         <CardContent>
           <Typography gutterBottom variant="headline" component="h2">
@@ -40,12 +41,12 @@ function EndGameCard(props) {
       </CardActionArea>
       <CardActions>
         <a href={props.demo} target="-blank" rel="noopener noreferrer" >
-          <Button size="small" color="primary">
+        <Button  focusRipple variant="contained" color="primary" className={classes.button}>
            Demo
          </Button>
         </a>
         <a href={props.gitHub} target="-blank" rel="noopener noreferrer" >
-          <Button size="small" color="primary">
+        <Button variant="contained" color="primary" className={classes.button}>
            Code
          </Button>
         </a>

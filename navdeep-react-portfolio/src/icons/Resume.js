@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import SvgIcon from '@material-ui/core/SvgIcon';
-import blue from '@material-ui/core/colors/blue';
+import red from '@material-ui/core/colors/red';
 
 const styles = theme => ({
   root: {
@@ -11,10 +11,10 @@ const styles = theme => ({
     alignItems: 'flex-end',
   },
   iconHover: {
-      color: 'white',
+      color: '#386afa',
     margin: theme.spacing.unit * 2,
     '&:hover': {
-      color: blue[800],
+      color: red[400],
     },
   },
 });
@@ -31,7 +31,7 @@ function ResumeIcons(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <ResumeIcon className={classes.iconHover} color="error" style={{ fontSize: 30 }} />
+      <ResumeIcon className={classes.iconHover} color="error" style={{ fontSize: props.fontSize }} />
     </div>
   );
 }
