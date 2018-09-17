@@ -34,7 +34,7 @@ const Home = (props) => {
       <br />
       <br />
       <Typography className={classes.subheading} variant="subheading" gutterBottom> 
-        In my free time, I love to try new restaurants, travel and experience different cultures with my girlfriend. I consider myself tech savvy and enjoys exploring new gadgets. 
+        In my free time, I love to try new restaurants, travel and experience different cultures with my girlfriend. I consider myself tech savvy and enjoy exploring new gadgets. 
       </Typography>
     </div>
   )
