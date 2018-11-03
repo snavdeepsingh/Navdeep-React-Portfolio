@@ -23,7 +23,7 @@ const styles = {
 let ProjectItems = [
   {
     id: 1,
-    img: "../assets/images/endGame.png",
+    img: "../assets/images/endGame",
     title: "End Game",
     description: "EndGame is a directional App with the Aim at helping users find the best location that is equidistant for a group to meet.",
     demo: "https://endgame2.herokuapp.com/",
@@ -31,7 +31,7 @@ let ProjectItems = [
   },
   {
     id: 2,
-    img: "../assets/images/squawker.png",
+    img: "../assets/images/squawker",
     title: "Squawker",
     description: "Take a picture of any bird to find out what bird it is. The picture is then stored in a database to be used in various aspects of Ornithology ",
     demo: "https://pacific-tundra-22064.herokuapp.com/",
@@ -39,15 +39,15 @@ let ProjectItems = [
   },
   {
     id: 3,
-    img: "../assets/images/mario-memory-game.png",
-    title: "Mario-memory-game",
+    img: "../assets/images/react-mario-game",
+    title: "react-Mario-Game",
     description: "Memory game built with React.js. Application renders different images. Each image listens to click events. It keeps a track of user's score.",
-    demo: "https://snavdeepsingh.github.io/React-Clicky-Game/",
-    gitHub: "https://github.com/snavdeepsingh/Mario-memory-game"
+    demo: "https://secure-savannah-37337.herokuapp.com/",
+    gitHub: "https://github.com/snavdeepsingh/React-Mario-Game"
   },
   {
     id: 4,
-    img: "../assets/images/Bamazon.png",
+    img: "../assets/images/Bamazon",
     title: "Bamazon",
     description: "An interactive node app where mysql and node.js is used to create a user experience who can view and place an order as a customer.",
     demo: "https://drive.google.com/file/d/1C4faW8WYyA9FQTsNwFVI6j8ESfIUtIsg/view",
@@ -55,7 +55,7 @@ let ProjectItems = [
   },
   {
     id: 5,
-    img: "../assets/images/nodejs.png",
+    img: "../assets/images/nodejs",
     title: "CLI App",
     description: "This node.js app receives input from the command line and fetches data from the specified API.",
     demo: "https://drive.google.com/file/d/1Q6hbQZUNILZAyCIUyEiIaNQIiedBXcq5/view",
