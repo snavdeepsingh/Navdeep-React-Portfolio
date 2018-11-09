@@ -61,7 +61,7 @@ class MouseOverPopoverProject extends React.Component {
           onClose={this.handlePopoverClose}
           disableRestoreFocus
         >
-          <Typography>Project</Typography>
+          <Typography>Projects</Typography>
         </Popover>
       </div>
     );
